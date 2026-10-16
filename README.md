@@ -91,6 +91,12 @@ database/schema.sql  Tables + sample data
 
 ### Shopping Cart
 ![FashionStore Shopping Cart](cart.png)
+
+### Checkout
+![FashionStore Checkout](checkout.png)
+
+### My Orders
+![FashionStore My Orders](my-orders.png)
 ## Author
 
 **Bhoomika M V** — [GitHub](https://github.com/BhoomikaVedamurthy) · [LinkedIn](https://www.linkedin.com/in/bhoomikamv)
