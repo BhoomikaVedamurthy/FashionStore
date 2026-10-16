@@ -83,8 +83,8 @@ database/schema.sql  Tables + sample data
 
 ## Screenshots
 
-_Add screenshots here (home page, product page, cart, checkout, orders)._
-
+### Homepage
+![FashionStore Homepage](homepage.png)
 ## Author
 
 **Bhoomika M V** — [GitHub](https://github.com/BhoomikaVedamurthy) · [LinkedIn](https://www.linkedin.com/in/bhoomikamv)
