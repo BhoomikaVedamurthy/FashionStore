@@ -1,4 +1,4 @@
-# Fashion Store
+# FashionStore
 
 A full-stack e-commerce web application for fashion products, built with Java Servlets, JSP and MySQL, following an MVC + DAO architecture.
 
@@ -47,8 +47,8 @@ database/schema.sql  Tables + sample data
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/fashion-store.git
-   cd fashion-store
+   git clone https://github.com/BhoomikaVedamurthy/FashionStore.git
+   cd FashionStore
    ```
 2. **Create the database.** In MySQL Workbench open `database/schema.sql` and run it, or:
    ```bash
@@ -87,4 +87,4 @@ _Add screenshots here (home page, product page, cart, checkout, orders)._
 
 ## Author
 
-**YOUR NAME** — [GitHub](https://github.com/YOUR-USERNAME) · [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
+**Bhoomika M V** — [GitHub](https://github.com/BhoomikaVedamurthy) · [LinkedIn](https://www.linkedin.com/in/bhoomikamv)
