@@ -85,6 +85,9 @@ database/schema.sql  Tables + sample data
 
 ### Homepage
 ![FashionStore Homepage](homepage.png)
+
+### Product Details
+![FashionStore Product Page](product-page.png)
 ## Author
 
 **Bhoomika M V** — [GitHub](https://github.com/BhoomikaVedamurthy) · [LinkedIn](https://www.linkedin.com/in/bhoomikamv)
