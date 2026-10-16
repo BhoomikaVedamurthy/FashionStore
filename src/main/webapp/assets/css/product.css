@@ -1,0 +1,260 @@
+.product-header {
+    min-height: 75px;
+    padding: 15px 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    border-bottom: 1px solid #e6dfd5;
+}
+
+.product-header .brand {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    color: #171717;
+}
+
+.back-link {
+    color: #655548;
+    font-size: 13px;
+}
+
+.product-page {
+    max-width: 1200px;
+    margin: 45px auto;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: 1.05fr 0.95fr;
+    align-items: start;
+    gap: 65px;
+}
+
+.product-gallery img {
+    display: block;
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    object-position: center;
+    background: #e8dccb;
+}
+
+.product-info {
+    padding: 15px 0;
+}
+
+.product-category {
+    color: #8b735d;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.product-info h1 {
+    margin: 12px 0 16px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(32px, 4vw, 48px);
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.detail-price {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.detail-price del {
+    color: #999;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.detail-discount {
+    padding: 5px 8px;
+    background: #eee2d2;
+    color: #634b35;
+    font-size: 11px;
+}
+
+.detail-description {
+    margin: 22px 0;
+    color: #716b64;
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.product-info hr {
+    margin: 25px 0;
+    border: 0;
+    border-top: 1px solid #e6dfd5;
+}
+
+.product-info > label {
+    display: block;
+    margin: 20px 0 12px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.size-options {
+    display: flex;
+    gap: 10px;
+}
+
+.size-options label {
+    min-width: 43px;
+    height: 43px;
+    display: grid;
+    place-items: center;
+    border: 1px solid #d8cfc3;
+    background: #fff;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.size-options label:has(input:checked) {
+    border-color: #171717;
+    background: #171717;
+    color: #fff;
+}
+
+.size-options input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#quantity {
+    width: 85px;
+    height: 42px;
+    padding: 8px;
+    border: 1px solid #d8cfc3;
+    background: #fff;
+}
+
+.detail-cart-button {
+    width: 100%;
+    min-height: 52px;
+    margin: 25px 0 15px;
+    border: 1px solid #171717;
+    background: #171717;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    transition: background 0.25s ease;
+}
+
+.detail-cart-button:hover {
+    background: #6e5945;
+}
+
+.product-promise {
+    padding: 10px 0;
+    color: #6c665e;
+    font-size: 12px;
+}
+
+.product-footer {
+    padding: 22px;
+    background: #171717;
+    color: #eee6dc;
+    text-align: center;
+    font-size: 11px;
+}
+
+@media (max-width: 700px) {
+    .product-header {
+        padding: 14px 5%;
+    }
+
+    .product-header .brand {
+        font-size: 24px;
+    }
+
+    .back-link {
+        font-size: 11px;
+    }
+
+    .product-page {
+        margin: 20px auto 35px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .product-gallery img {
+        max-height: 500px;
+    }
+
+    .product-info {
+        padding: 0;
+    }
+    .product-gallery {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.product-gallery .product-image {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/* Product page layout */
+.product-layout {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Product image section */
+.product-gallery {
+    flex: 1;
+    max-width: 450px;
+}
+
+/* Product image */
+.product-image {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Product information section */
+.product-info {
+    flex: 1;
+    max-width: 500px;
+}
+
+/* Mobile layout */
+@media (max-width: 768px) {
+    .product-layout {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-gallery,
+    .product-info {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .product-image {
+        height: auto;
+        aspect-ratio: 4 / 5;
+    }
+}
+}

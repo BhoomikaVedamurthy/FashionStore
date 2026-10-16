@@ -1,0 +1,45 @@
+/* ========================================
+   FASHIONSTORE - FONT CONFIGURATION
+======================================== */
+
+/* Import fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+/* Default font for the website */
+body {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* Brand logo */
+.navbar-logo a,
+.footer-brand h2 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+/* Navigation links */
+.navbar a {
+    font-family: 'DM Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+/* Buttons */
+button,
+input,
+select,
+textarea {
+    font-family: 'DM Sans', Arial, sans-serif;
+}
